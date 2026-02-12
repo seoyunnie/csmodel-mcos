@@ -1,0 +1,16 @@
+*       text=auto
+*.csv   text eol=crlf
+*.ipynb text eol=lf
+*.json  text
+*.lock  text
+*.pdf   diff=astextplain
+*.py    text diff=python
+*.toml  text
+
+.editorconfig   text
+.gitattributes  text export-ignore
+.gitignore      text export-ignore
+.python-version text
+
+# Overrides
+.vscode/*.json linguist-language=jsonc
