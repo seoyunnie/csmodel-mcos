@@ -5,9 +5,9 @@ dependencies = [
   "ipykernel>=7.2.0",
   "jupyter>=1.1.1",
   "matplotlib>=3.10.8",
+  "nbconvert>=7.17.0",
   "numpy>=2.4.2",
   "pandas>=3.0.0",
-  "seaborn>=0.13.2",
 ]
 requires-python = ">=3.14"
 authors = [
@@ -22,4 +22,4 @@ authors = [
 Repository = "https://github.com/seoyunnie/csmodel-mcos.git"
 
 [dependency-groups]
-dev = ["pandas-stubs>=3.0.0.260204", "ruff>=0.15.0", "ty>=0.0.16", "types-seaborn>=0.13.2.20251221"]
+dev = ["pandas-stubs>=3.0.0.260204", "ruff>=0.15.0", "ty>=0.0.16"]
