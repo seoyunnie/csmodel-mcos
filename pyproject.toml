@@ -1,14 +1,7 @@
 [project]
 name = "csmodel-mcos"
 version = "0.1.0"
-dependencies = [
-  "ipykernel>=7.2.0",
-  "jupyter>=1.1.1",
-  "matplotlib>=3.10.8",
-  "nbconvert>=7.17.0",
-  "numpy>=2.4.2",
-  "pandas>=3.0.0",
-]
+dependencies = ["matplotlib>=3.10.8", "numpy>=2.4.2", "pandas>=3.0.1"]
 requires-python = ">=3.14"
 authors = [
   { name = "Darryl Panaligan" },
@@ -22,4 +15,4 @@ authors = [
 Repository = "https://github.com/seoyunnie/csmodel-mcos.git"
 
 [dependency-groups]
-dev = ["pandas-stubs>=3.0.0.260204", "ruff>=0.15.0", "ty>=0.0.16"]
+dev = ["ipykernel>=7.2.0", "notebook>=7.5.3", "pandas-stubs>=3.0.0.260204", "ruff>=0.15.1", "ty>=0.0.17"]
