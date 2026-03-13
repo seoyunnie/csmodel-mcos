@@ -1,0 +1,13 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Python Tools
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+**/.DS_Store

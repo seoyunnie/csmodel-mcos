@@ -1,0 +1,31 @@
+[project]
+name = "csmodel-mcos"
+version = "0.1.0"
+dependencies = ["matplotlib>=3.10.8", "numpy>=2.4.3", "pandas>=3.0.1"]
+requires-python = ">=3.14"
+authors = [
+  { name = "Darryl Panaligan" },
+  { name = "Jek Degullado" },
+  { name = "Elkan La Madrid" },
+  { name = "Raphael Panaligan" },
+]
+description = "Analysis of the FoodAPS dataset to determine the relationship between food assistance and household sugar intake."
+classifiers = [
+  "Private :: Do Not Upload",
+  "Development Status :: 7 - Inactive",
+  "Environment :: Console",
+  "Framework :: Jupyter",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.14",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Repository = "https://github.com/seoyunnie/csmodel-mcos.git"
+
+[dependency-groups]
+dev = ["ipykernel>=7.2.0", "notebook>=7.5.5", "pandas-stubs>=3.0.0.260204", "ruff>=0.15.6", "ty>=0.0.22"]
