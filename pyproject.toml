@@ -3,9 +3,12 @@ name = "csmodel-mcos"
 version = "0.1.0"
 dependencies = [
     "matplotlib>=3.10.8",
+    "mlxtend>=0.24.0",
     "numpy>=2.4.3",
     "pandas>=3.0.1",
+    "scipy>=1.17.1",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
 ]
 requires-python = ">=3.14"
 authors = [
@@ -38,6 +41,7 @@ dev = [
     "notebook>=7.5.5",
     "pandas-stubs>=3.0.0.260204",
     "ruff>=0.15.6",
+    "scipy-stubs>=1.17.1.2",
     "ty>=0.0.22",
     "types-seaborn>=0.13.2.20251221",
 ]
